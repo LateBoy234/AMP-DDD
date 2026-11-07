@@ -1,0 +1,18 @@
+# Build output and IDE caches, including nested project directories.
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+*.user
+*.suo
+TestResults/
+**/TestResults/
+*.log
+
+# Local credentials and machine-specific settings.
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+appsettings.Local.json
